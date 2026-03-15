@@ -2,6 +2,7 @@
 Official repository for AerialVLA: A Vision-Language-Action Model for UAV Navigation via Minimalist End-to-End Control
 
 
+
 🔥 **[Check out our Project Page for more real-world demo videos and qualitative results!](https://xupeng23.github.io/AerialVLA)**
 
 ![Teaser](docs/assets/teaser.gif)
@@ -19,11 +20,11 @@ We are continuously working on improving AerialVLA and pushing it towards real-w
 
 - [ ] Release inference code and pre-trained weights.
 - [ ] Release the minimalist dual-view perception pipeline.
-- [ ] **Hardware Deployment:** Real-world UAV deployment guidelines and optimized inference code for Nvidia Jetson Orin edge computing platforms.
+- [ ] **Hardware Deployment:** Deploy AerialVLA on real-world UAVs for physical testing.
 
 ## 📄 License
 
-This project is licensed under the **Apache License 2.0**. This permissive license supports both academic research and enterprise collaborations. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the **Apache License 2.0**. See the [LICENSE](LICENSE) file for more details.
 
 ## ✒️ Citation
 
