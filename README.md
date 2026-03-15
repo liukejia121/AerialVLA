@@ -2,7 +2,7 @@
 Official repository for AerialVLA: A Vision-Language-Action Model for UAV Navigation via Minimalist End-to-End Control
 
 <p align="center">
-  <img src="figures/teaser_figure.png" width="600" title="AerialVLA">
+  <img src="figures/teaser_figure.png" width="1000" title="AerialVLA">
 </p>
 
 🔥 **[Check out our Project Page for more real-world demo videos and qualitative results!](https://xupeng23.github.io/AerialVLA)**
