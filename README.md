@@ -14,13 +14,19 @@ Vision-Language Navigation (VLN) for Unmanned Aerial Vehicles (UAVs) demands com
 ## 🛠️ Installation
 
 ## 📋 TODO List
+
 We are continuously working on improving AerialVLA and pushing it towards real-world applications.
-[ ] Release inference code and pre-trained weights.
-[ ] Release the minimalist dual-view perception pipeline.
-[ ] Hardware Deployment: Real-world UAV deployment guidelines and optimized inference code for Nvidia Jetson Orin edge computing platforms.
+
+- [ ] Release inference code and pre-trained weights.
+- [ ] Release the minimalist dual-view perception pipeline.
+- [ ] **Hardware Deployment:** Real-world UAV deployment guidelines and optimized inference code for Nvidia Jetson Orin edge computing platforms.
 
 ## 📄 License
-This project is licensed under the Apache License 2.0. This permissive license supports both academic research and enterprise collaborations. See the LICENSE file for more details.
+
+This project is licensed under the **Apache License 2.0**. This permissive license supports both academic research and enterprise collaborations. See the [LICENSE](LICENSE) file for more details.
 
 ## ✒️ Citation
+
+If you find our work helpful for your research, please consider citing our paper:
+
 
