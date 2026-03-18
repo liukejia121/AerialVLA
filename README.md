@@ -5,7 +5,7 @@ Official repository for AerialVLA: A Vision-Language-Action Model for UAV Naviga
   <img src="figures/teaser_figure.png" width="1000" title="AerialVLA">
 </p>
 
-🔥 **[Check out our Project Page for more real-world demo videos and qualitative results!](https://xupeng23.github.io/AerialVLA)**
+
 
 ![Teaser](docs/assets/teaser.gif)
 
