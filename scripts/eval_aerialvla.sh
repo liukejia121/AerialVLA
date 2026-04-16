@@ -1,6 +1,9 @@
 #!/bin/bash
+#  chmod +x scripts/eval_aerialvla.sh
+#  scripts/eval_aerialvla.sh
 
 # Configuration ------------------------------------
+DSETRAW_PATH="/mnt/lkj/aerialvla"
 PROJECT_ROOT="."
 MODEL_DIR="$PROJECT_ROOT/checkpoints/aerial_vla"
 EXP_NAME=$(basename "$MODEL_DIR")
@@ -14,8 +17,8 @@ EXP_NAME=$(basename "$MODEL_DIR")
 # TASK_ID="seen_valset/Carla_Town10HD"
 # TASK_ID="seen_valset/Carla_Town15"
 # TASK_ID="seen_valset/ModernCityMap"
-# TASK_ID="seen_valset/NewYorkCity"
-TASK_ID="seen_valset/NYCEnvironmentMegapa"
+TASK_ID="seen_valset/NewYorkCity"
+# TASK_ID="seen_valset/NYCEnvironmentMegapa"
 # TASK_ID="seen_valset/TropicalIsland"
 
 # [UNSEEN OBJECT] ----------------------------------
@@ -59,7 +62,7 @@ CUDA_VISIBLE_DEVICES=$GPU_ID python -u $PROJECT_ROOT/src/vlnce_src/eval_aerialvl
     --DDP_MASTER_PORT 80005 \
     --batchSize 1 \
     --maxWaypoints 200 \
-    --dataset_path $PROJECT_ROOT/dataset_raw/ \
+    --dataset_path $DSETRAW_PATH/dataset_raw/ \
     --eval_save_path $SAVE_DIR \
     --model_path $MODEL_DIR \
     --eval_json_path $TEST_JSON \
